@@ -7,8 +7,9 @@ const cn = {
       "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
   },
   Auth: {
-    Title: "需要密码",
-    Tips: "管理员开启了密码验证，请在下方填入访问码",
+    Title: "需要访问码",
+    Tips: "管理员开启了密码验证，请在下方填入访问码"
+	"关注公众号: 原数字工具 ,有GPT-3.5 GPT-4 Midjourney 数字人视频 图片处理 以文生图 等超多工具等您使用!",
     Input: "在此处填写访问码",
     Confirm: "确认",
     Later: "稍后再说",
@@ -243,8 +244,8 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
-    Error: "出错了，稍后重试吧",
+    BotHello: "有什么可以帮你的吗?尽管提问,我会尽我所能来回答!",
+    Error: "出错了，请重试.",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
       Topic:
@@ -268,11 +269,11 @@ const cn = {
     Name: "插件",
   },
   Mask: {
-    Name: "面具",
+    Name: "AI模型预设",
     Page: {
-      Title: "预设角色面具",
-      SubTitle: (count: number) => `${count} 个预设角色定义`,
-      Search: "搜索角色面具",
+      Title: "预设AI模型",
+      SubTitle: (count: number) => `${count} 个预设AI模型定义`,
+      Search: "搜索AI模型",
       Create: "新建",
     },
     Item: {
