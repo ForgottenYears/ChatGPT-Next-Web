@@ -9,7 +9,6 @@ const cn = {
   Auth: {
     Title: "需要访问码",
     Tips: "管理员开启了密码验证，请在下方填入访问码",
-    Discription:"您还可以关注公众号: 原数字工具 ,有GPT-3.5,GPT-4,Midjourney,以文生图,数字人视频等超多AI工具等您使用!",
     Input: "在此处填写访问码",
     Confirm: "确认",
     Later: "稍后再说",
